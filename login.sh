@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "Login: ${0%/*}"
 cd "${0%/*}"
 echo "Logging into $1 as $2";
 

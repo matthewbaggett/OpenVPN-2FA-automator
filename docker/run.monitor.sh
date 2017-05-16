@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+sleep 2;
 screenName='openvpn-'$VPN_CONFIG;
-screen -d -m -S $screenName;
-sleep 86400;
+screen -r $screenName;
+
