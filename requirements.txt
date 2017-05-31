@@ -1,2 +1,4 @@
 qrtools==0.0.2
 pyotp==2.2.4
+zbar==0.10
+image==1.5.5
