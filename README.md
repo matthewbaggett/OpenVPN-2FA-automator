@@ -3,6 +3,16 @@ OpenVPN 2FA Automator
 
 Sick of having to put in a 2fa code to log into vpn? This is the tool for you.
 
+## Install:
+
+On Ubuntu 17.04
+
+## Installation:
+```
+apt install openvpn screen python python-pip libzbar-dev
+pip install -r requirements.txt
+```
+
 ## Howto:
 
 Copy your client.ovpn file into `companyName/client.ovpn`
@@ -19,9 +29,7 @@ and off you go!
  * Python
  * Bash
  * Screen
+ * libzbar0
  * OpenVPN (duh)
 
-```
-apt install openvpn screen python python-pip libzbar0-dev
-pip install -r requirements.txt
-```
+
