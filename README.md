@@ -20,3 +20,8 @@ and off you go!
  * Bash
  * Screen
  * OpenVPN (duh)
+
+```
+apt install openvpn screen python python-pip libzbar0-dev
+pip install -r requirements.txt
+```
